@@ -1,0 +1,68 @@
+body{
+    overflow: hidden;
+}
+
+h1{
+    font-weight:bolder;
+    text-align: center;
+    margin-top: 50px;
+    font-family:fantasy;
+}
+
+
+.photo{
+    margin: 20px auto auto auto;
+    height: 60vh;
+    width: 60vw;
+    border: solid black;
+    background-image: url(hihi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+button{
+    margin: 50px auto auto auto;
+    font-size: 1.5rem;
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    background-image: url(./button.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:white;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.no{
+    white-space: nowrap;
+    position: absolute;
+}
+
+
+.heart{
+    font-size: 30px;
+    color:red;
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    animation: fall 1s linear forwards;
+}
+
+@keyframes fall{
+    to{
+        transform: translateY(105vh);
+    }
+}
+
+
+.center{
+    margin: 50px auto auto auto;
+}
+
+
